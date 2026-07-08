@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-//03 - Faça um programa que carregue uma matriz 6x4 com números inteiros, calcule
-//e mostre quantos elementos dessa mariz são maiores que 30 e, em seguida, monte
-//uma segunda matriz com os elementos dierentes de 30. No lugar do número 30 da
-//segunda matriz coloque o número zero.
+//03 - FaÃ§a um programa que carregue uma matriz 6x4 com nÃºmeros inteiros, calcule
+//e mostre quantos elementos dessa mariz sÃ£o maiores que 30 e, em seguida, monte
+//uma segunda matriz com os elementos dierentes de 30. No lugar do nÃºmero 30 da
+//segunda matriz coloque o nÃºmero zero.
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
@@ -34,7 +34,7 @@ int main()
             }
         }
     }
-    printf("\n%d são maiores que 30\n", maiores);
+    printf("\n%d sÃ£o maiores que 30\n", maiores);
     for (int l = 0; l < 4; l++)
     {
         printf("\n");
